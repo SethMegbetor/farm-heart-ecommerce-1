@@ -4,6 +4,14 @@ npm install --legacy-peer-deps
 
 npm run dev
 
+First: cd /Users/spiderhussle/Documents/Dev/farm-heart-ecommerce farm-heart-ecommerce/ecommerce-fh - to enter project’s directory
+Then:  sanity start - to run Sanity Studio
+
+Other helpful commands
+sanity docs - to open the documentation in a browser
+sanity manage - to open the project settings in a browser
+sanity help - to explore the CLI manual
+
 
 /*** Original package file ***/
     {
