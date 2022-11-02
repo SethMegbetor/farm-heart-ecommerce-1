@@ -3,7 +3,7 @@ import React from "react";
 import { client } from "../lib/client";
 import { Product, FooterBanner, HeroBanner } from "../components";
 
-const Home = (products, bannerData) => (
+const Home = ({ products, bannerData }) => (
   <>
     <HeroBanner heroBanner={bannerData.length & bannerData[0]} />
     <div className="products-heading">
