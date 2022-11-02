@@ -5,7 +5,7 @@ import { Product, FooterBanner, HeroBanner } from "../components";
 
 const Home = (products, bannerData) => (
   <>
-    <HeroBanner/>
+    <HeroBanner heroBanner={bannerData.length & bannerData[0]} />
     <div className="products-heading">
       <h2>Fresh healthy vegetables</h2>
       <p>best organic farm products</p>
