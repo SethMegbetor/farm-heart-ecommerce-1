@@ -12,7 +12,7 @@ const Home = ({ products, bannerData }) => (
       <p>best organic farm products</p>
     </div>
     <div className="products-container">
-      {products?.map((product) => product.name)}
+      {products?.map((product) => <Product/>)}
     </div>
     <FooterBanner />
   </div>
