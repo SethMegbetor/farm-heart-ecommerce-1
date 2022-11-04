@@ -6,7 +6,8 @@ const HeroBanner = ({ heroBanner }) => {
     <div className="hero-banner-container">
       <div>
         <p className="beats-solo">{heroBanner.smallText}</p>
-        <h3>{ heroBanner.midText}</h3>
+        <h3>{heroBanner.midText}</h3>
+        <h1>{ heroBanner.largeText1}</h1>
         <img src="" alt="headphones" className="hero-banner-image" />
         <div>
           <Link href="/product/ID">
