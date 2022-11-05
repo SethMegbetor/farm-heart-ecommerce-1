@@ -15,6 +15,7 @@ const Product = ({ product: { image, name, slug, price } }) => {
             className="product-image"
             alt=""
           />
+          <p className="product-name">{name}</p>
         </div>
       </Link>
     </div>
