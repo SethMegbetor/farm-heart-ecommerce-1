@@ -29,5 +29,10 @@ export default {
       title: "Price",
       type: "string",
     },
+    {
+      name: "details",
+      title: "Details",
+      type: "string",
+    },
   ],
 };
