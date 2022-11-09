@@ -8,7 +8,9 @@ export default {
       title: "Image",
       type: "array",
       of: [{ type: "image" }],
-      options: { hotspot: true },
+      options: {
+        hotspot: true,
+      },
     },
     {
       name: "name",
@@ -17,17 +19,17 @@ export default {
     },
     {
       name: "slug",
-      title: "slug",
+      title: "Slug",
       type: "slug",
       options: {
-        source: name,
+        source: "name",
         maxLength: 90,
       },
     },
     {
       name: "price",
       title: "Price",
-      type: "string",
+      type: "number",
     },
     {
       name: "details",
