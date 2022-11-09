@@ -85,6 +85,8 @@ export const StateContext = ({ children }) => {
         //   { ...foundProduct, quantity: foundProduct.quantity - 1 },
         // ]);
 
+        // the below code prevents the items in the cart from reshuffling themselves
+
         setCartItems((prevCartItems) =>
           prevCartItems.map((item) => {
             if (item._id === id) {
