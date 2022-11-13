@@ -34,3 +34,6 @@ sanity help - to explore the CLI manual
     "eslint-config-next": "13.0.0"
   }
 }
+
+link to the backend for product editing
+https://farmheart.sanity.studio/desk
