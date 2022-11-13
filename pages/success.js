@@ -10,7 +10,12 @@ const Success = () => {
 
   // const [order, setOrder] = useState(null);
 
-  
+  useEffect(() => {
+    localStorage.clear();
+    setCartItems([]);
+    setTotalPrice(0);
+    setTotalQuantities(0)
+  }, []);
 
   return (
     <div className="success-wrapper">
