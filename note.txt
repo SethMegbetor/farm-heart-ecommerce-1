@@ -37,3 +37,5 @@ sanity help - to explore the CLI manual
 
 link to the backend for product editing
 https://farmheart.sanity.studio/desk
+
+This is a wrap of the program for now
